@@ -9709,3 +9709,11 @@ textarea.form-control {
 .about-se {
   margin: 0 10px !important;
 }
+
+@media (max-width: 600px) {
+  .about-img {
+    height: 200px;
+    width: 130px;
+    margin-bottom: 20px;
+  }
+}
