@@ -1,6 +1,8 @@
-## Welcome to my portfolio showcasing my journey in software development!
+## Welcome to my portfolio
 
-Take a look at my portfolio featuring my experience and expertise in software development.
+## Showcasing my journey in Frontend development!
 
-My portfolio showcases over 2 years of robust experience in Software Development, complemented by a bachelor's degree in Information Technology. Proficient in a wide array of technologies including React, Vue, JavaScript, TypeScript, Redux Toolkit, HTML5, CSS3, and Tailwind CSS.
+Take a look at my portfolio featuring my experience and expertise in Frontend development.
+
+My portfolio showcases over 3 years of work experience in Frontend Development.  I specialize in creating smooth and user-friendly web interfaces, focusing on frontend development. With a solid background in building professional websites and applications, I'm skilled in React, Next, Vue, JavaScript, HTML, CSS, and more. I love learning and have completed over 13 projects, aiming to stay updated with the latest tech trends.
 
