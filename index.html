@@ -2,443 +2,705 @@
 <html lang="en">
   <head>
     <title>Nidhi Patel Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
 
+    <link rel="stylesheet" href="css/aos.css" />
 
+    <link rel="stylesheet" href="css/ionicons.min.css" />
 
-<style>
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-/*======================================
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/viewerjs@1.10.0/dist/viewer.min.css"
+    />
+    <style>
+      /*======================================
 //--//-->   ABOUT
 ======================================*/
 
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
+      .about-mf .box-shadow-full {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+      }
 
-.about-mf .about-img {
-  margin-bottom: 2rem;
-}
+      .about-mf .about-img {
+        margin-bottom: 2rem;
+      }
 
-.about-mf .about-img img {
-  margin-left: 10px;
-}
+      .about-mf .about-img img {
+        margin-left: 10px;
+      }
 
+      .skill-mf .progress {
+        /* background-color: #cde1f8; */
+        margin: 0.5rem 0 1.2rem 0;
+        border-radius: 0;
+        height: 0.7rem;
+      }
 
-.skill-mf .progress {
-  /* background-color: #cde1f8; */
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
+      .skill-mf .progress .progress-bar {
+        height: 0.7rem;
+        background-color: #8280ef;
+      }
 
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #8280ef;
-}
+      /* Animation styles */
+      #typing-animation {
+        position: relative;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 3s steps(20, end) infinite;
+      }
 
+      #typing-animation:before {
+        content: "";
+        /* position: absolute; */
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background-color: #ccc;
+        animation: typing-cursor 0.5s ease-in-out infinite;
+      }
 
-/* Animation styles */
-#typing-animation {
-  position: relative;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(20, end) infinite;
-}
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
 
-#typing-animation:before {
-  content: "";
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #ccc;
-  animation: typing-cursor 0.5s ease-in-out infinite;
-}
+      @keyframes typing-cursor {
+        from {
+          width: 5px;
+        }
+        to {
+          width: 0;
+        }
+      }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
+      /* project image zoom effect */
 
-@keyframes typing-cursor {
-  from {
-    width: 5px;
-  }
-  to {
-    width: 0;
-  }
-}
+      .zoom-effect {
+        border-radius: 12px;
+        overflow: hidden;
+        transition: transform 0.3s ease-out;
+        cursor: pointer;
+      }
 
-
-/* project image zoom effect */
-
-.zoom-effect {
-  border-radius: 12px;
-  overflow: hidden;
-  transition: transform 0.3s ease-out;
-}
-
-.zoom-effect:hover {
-  transform: scale(1.1);
-}
-
-
-</style>
-
-
+      .zoom-effect:hover {
+        transform: scale(1.1);
+      }
+    </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-	  
-	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Nidhi Patel</a>
-	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+    <script src="https://cdn.jsdelivr.net/npm/viewerjs@1.10.0/dist/viewer.min.js"></script>
+    <script>
+      function openViewer(event) {
+        event.preventDefault();
+        const images = [
+          "images/medisage/medi-ss-1.png",
+          "images/medisage/medi-ss-2.png",
+          "images/medisage/medi-ss-3.png",
+        ];
+        console.log(images, "images");
+        const viewer = new Viewer(document.body, {
+          toolbar: true,
+          title: false,
+          backdrop: true,
+          url(image) {
+            return image.src;
+          },
+          hidden() {
+            viewer.destroy();
+          },
+        });
+        const index = images.indexOf(
+          event.currentTarget.style.backgroundImage.slice(5, -2)
+        );
+        viewer.view(images, { initialViewIndex: index });
+      }
+    </script>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target"
+      id="ftco-navbar"
+    >
+      <div class="container">
+        <div class="navbar-brand">Nidhi Patel</div>
+        <button
+          class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
+          type="button"
+          data-toggle="collapse"
+          data-target="#ftco-nav"
+          aria-controls="ftco-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="oi oi-menu"></span> Menu
+        </button>
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
-	       <div class="slider-item ">
-	      	<div class="overlay"></div>
-	         <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<!-- <div class="one-third js-fullheight order-md-last img">
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav nav ml-auto">
+            <li class="nav-item">
+              <a href="#home-section" class="nav-link"><span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-section" class="nav-link"><span>About</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#resume-section" class="nav-link"><span>Resume</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="#project-section" class="nav-link"
+                ><span>Projects</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contact-section" class="nav-link"
+                ><span>Contact</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home-section" class="hero">
+      <div class="home-slider owl-carousel">
+        <div class="slider-item">
+          <div class="overlay"></div>
+          <div class="container">
+            <div
+              class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+              data-scrollax-parent="true"
+            >
+              <!-- <div class="one-third js-fullheight order-md-last img">
 	          	 <div class="overlay"></div> -->
-	          	<!-- </div> -->
-		          <div class="one-forth d-flex align-items-center justify-content-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text-center">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Nidhi Patel</span></h1>
+              <!-- </div> -->
+              <div
+                class="one-forth d-flex align-items-center justify-content-center ftco-animate"
+                data-scrollax=" properties: { translateY: '70%' }"
+              >
+                <div class="text-center">
+                  <span class="subheading">Hello!</span>
+                  <h1 class="mb-4 mt-3">I'm <span>Nidhi Patel</span></h1>
 
-						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
+                  <!-- Element to contain animated typing -->
+                  <span id="typing-animation"></span>
 
-						<script>
+                  <script>
+                    // Initialize the typing animation
+                    const typingAnimationElement =
+                      document.getElementById("typing-animation");
 
-						// Initialize the typing animation
-						const typingAnimationElement = document.getElementById('typing-animation');
+                    // Create an array of typing text
+                    const typingTexts = ["A Frontend Developer  "];
 
-						// Create an array of typing text
-						const typingTexts = [
-						'A Frontend Developer  ',
-						];
+                    // Create a function to display the typing animation for a given text
+                    function playTypingAnimation(text) {
+                      // Loop through each character and add it to the element
+                      for (let i = 0; i < text.length; i++) {
+                        setTimeout(() => {
+                          typingAnimationElement.textContent += text[i];
+                        }, i * 200); // Increase the delay to slow down the typing animation
+                      }
 
-						// Create a function to display the typing animation for a given text
-						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
-						for (let i = 0; i < text.length; i++) {
-							setTimeout(() => {
-							typingAnimationElement.textContent += text[i];
-							}, i * 200); // Increase the delay to slow down the typing animation
-						}
-
-						// Once the animation is complete, reset the text and start over
-						setTimeout(() => {
-							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
-						}
-						// Start the typing animation loop
-						playTypingAnimation(typingTexts[0]);
-						</script>
-						<br>
-						<br>
-			            <p>
-						<a href="https://github.com/nidhip05" class="btn btn-primary py-3 px-4">My Work</a> 
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-		</div>
+                      // Once the animation is complete, reset the text and start over
+                      setTimeout(() => {
+                        typingAnimationElement.textContent = "";
+                        playTypingAnimation(
+                          typingTexts[
+                            (typingTexts.indexOf(text) + 1) % typingTexts.length
+                          ]
+                        );
+                      }, text.length * 200);
+                    }
+                    // Start the typing animation loop
+                    playTypingAnimation(typingTexts[0]);
+                  </script>
+                  <br />
+                  <br />
+                  <p>
+                    <a
+                      href="https://github.com/nidhip05"
+                      class="btn btn-primary py-3 px-4"
+                      target="_blank"
+                      >My Work</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
-
 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div class="container">
-			<div class="row">
-				<div class="row d-flex align-items-stretch about-se">
-				<!-- <div class="row d-flex"> -->
-					<div class="col-md-12 col-lg-5 d-flex">
-						<div class="img-about img d-flex align-items-stretch">
-							<div class="overlay">
-								<div class="row">
-									<div class="col-sm-6 col-md-5">
-									  <div class="about-img">
-										<img src="images/about.jpg" class="img-fluid rounded-lg b-shadow-a mb-5 about-img" alt="">
-									  </div>
-									</div>
-									<!-- Details next to profile image -->
-									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<p><span class="title-s">Name: </span> <span>Nidhi Patel</span></p>
-										<p><span class="title-s">Job Role: </span> <span>Software Developer</span></p>
-										<p><span class="title-s">Experience: </span> <span>2 Years 5 Months</span></p>
-										<p><span class="title-s">Address: </span> <span>Mumbai, India</span></p>
-									  </div>
-									</div>
-								  </div>
+      <div class="container">
+        <div class="row">
+          <div class="row d-flex align-items-stretch about-se">
+            <!-- <div class="row d-flex"> -->
+            <div class="col-md-12 col-lg-5 d-flex">
+              <div class="img-about img d-flex align-items-stretch">
+                <div class="overlay">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img
+                          src="images/about.jpg"
+                          class="img-fluid rounded-lg b-shadow-a mb-5 about-img"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <!-- Details next to profile image -->
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p>
+                          <span class="title-s">Name: </span>
+                          <span>Nidhi Patel</span>
+                        </p>
+                        <p>
+                          <span class="title-s">Job Role: </span>
+                          <span>Software Developer</span>
+                        </p>
+                        <p>
+                          <span class="title-s">Experience: </span>
+                          <span>3 Years</span>
+                        </p>
+                        <p>
+                          <span class="title-s">Address: </span>
+                          <span>Mumbai, India</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
 
-								<div class="skill-mf">
-									<p class="title-s">Skills</p>
-									<span>HTML</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>CSS</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skills</p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div>HTML</div>
+                      <div class="">95%</div>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 95%"
+                        aria-valuenow="95"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
 
-									<span>Tailwind</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Javascript</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>CSS</span> <span class="pull-right">95%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 95%"
+                        aria-valuenow="95"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
 
-									<span>Typescript</span> <span class="pull-right">50%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>React</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Bootstrap</span> <span class="pull-right">80%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
 
-									<span>Next</span> <span class="pull-right">70%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Vue</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Tailwind</span> <span class="pull-right">95%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 95%"
+                        aria-valuenow="95"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
 
-									<span>Redux</span> <span class="pull-right">50%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Javascript</span>
+                      <span class="pull-right">90%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 90%"
+                        aria-valuenow="90"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
 
-									<span>Zustand</span> <span class="pull-right">70%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<div class="col-md-12 col-lg-7 pl-lg-5 pb-5">
-						<div class="row justify-content-start pb-3">
-							<div class="col-md-12 heading-section ftco-animate">
-								
-								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
-								
-								<p>With over 2 years of comprehensive experience in the field of Software Development, accompanied by a bachelor's degree in Information Technology. 
-									Proficient in React, Vue, Javascript, HTML5, CSS3 &amp; Tailwind CSS. 
-								</p>
-								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Software Development</span></li>
-									<li class="d-flex"><span>Education:</span> <span>Bachelor of Science - Information Technology</span></li>
-									<li class="d-flex"><span>Language:</span> <span>English</span></li>
-									<li class="d-flex"><span>Tools:</span> <span>Javascript, React, Vue, &amp; HTML5/CSS3</span></li>
-									<li class="d-flex"><span>Other Skills:</span> <span>Git, Npm, Webpack &amp Babel</span></li>
-									<li class="d-flex"><span>Interest:</span> <span>Traveling &amp Reading</span></li>
-									
-								</ul>
-							</div>
-						</div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Typescript</span>
+                      <span class="pull-right">30%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 30%"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
 
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>React</span> <span class="pull-right">95%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 95%"
+                        aria-valuenow="95"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
 
-						<div class="counter-wrap ftco-animate d-flex mt-md-3">
-							<div class="text">
-								<p class="mb-4">
-									<span class="number" data-number="7">0</span> <span>+</span>
-									<span>&nbsp; Projects completed</span>
-								</p>
-								<p><a href="https://www.linkedin.com/in/nidhi-patel-3078371b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="btn btn-primary py-3 px-3" target="_blank">LinkedIn</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Next</span> <span class="pull-right">80%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Vue</span> <span class="pull-right">80%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Redux</span> <span class="pull-right">30%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 30%"
+                        aria-valuenow="30"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span>Zustand</span> <span class="pull-right">80%</span>
+                    </div>
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 80%"
+                        aria-valuenow="80"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-12 col-lg-7 pl-lg-5 pb-5">
+              <div class="row justify-content-start pb-3">
+                <div class="col-md-12 heading-section ftco-animate">
+                  <h1 class="big">About</h1>
+                  <h2 class="mb-4">About Me</h2>
+                  <p>
+                    I specialize in creating smooth and user-friendly web
+                    interfaces, focusing on frontend development. With a solid
+                    background in building professional websites and
+                    applications, I'm skilled in React, Next, Vue, JavaScript,
+                    HTML, CSS, and more. I love learning and have completed over
+                    13 projects, aiming to stay updated with the latest tech
+                    trends.
+                  </p>
+                  <ul class="about-info mt-4 px-md-0 px-2">
+                    <li class="d-flex">
+                      <span>Profile:</span> <span>Frontend Development</span>
+                    </li>
+                    <li class="d-flex">
+                      <span>Education:</span>
+                      <span>Bachelor of Science - Information Technology</span>
+                    </li>
+                    <li class="d-flex">
+                      <span>Language:</span> <span>English</span>
+                    </li>
+                    <li class="d-flex">
+                      <span>Tools:</span>
+                      <span>Javascript, React, Vue, &amp; HTML5/CSS3</span>
+                    </li>
+                    <li class="d-flex">
+                      <span>Other Skills:</span>
+                      <span>Git, Npm, Webpack &amp Babel</span>
+                    </li>
+                    <li class="d-flex">
+                      <span>Interest:</span> <span>Traveling &amp Reading</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                <div class="text">
+                  <p class="mb-4">
+                    <span class="number" data-number="13">0</span>
+                    <span>+</span>
+                    <span>&nbsp; Projects completed</span>
+                  </p>
+                  <p>
+                    <a
+                      href="https://www.linkedin.com/in/nidhi-patel-3078371b3"
+                      class="btn btn-primary py-3 px-3"
+                      target="_blank"
+                      >LinkedIn</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-
-
-	
     <section class="ftco-section ftco-no-pb" id="resume-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
+      <div class="container">
+        <div class="row justify-content-center pb-5">
           <div class="col-md-10 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Resume</h1>
+            <h1 class="big big-2">Resume</h1>
             <h2 class="mb-4">Resume</h2>
-            <p>Frontend Developer specializing in crafting dynamic user interfaces that engage and delight users. Proficient in React, Vue.js, and JavaScript, with a keen eye for detail in design and functionality. Dedicated to leveraging HTML, CSS, and modern frontend frameworks to create intuitive and responsive web applications that enhance user experiences.</p>
+            <p>
+              Frontend Developer focused on building dynamic and pixel perfect
+              user interfaces. Experienced in React, Next, Vue, JavaScript,
+              HTML/CSS and more. I enjoy creating responsive web applications
+              that look great and function seamlessly.
+            </p>
           </div>
         </div>
 
-		<div class="row">
-			<h1 class="big-4">Experience</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-		<div class="row">
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">Jan 2022 - Present</span>
-						<h2>Software Developer</h2>
-						<span class="position">Medisage E-Learning PVT LTD</span>
-						<p class="mt-4">Medisage, Asia's largest medical network of Doctors, where best medical minds exchange ideas to improve patient outcomes. 
-							<ul>
-							<li>Revamped a Vue2 website to Next.js and React.js, integrating server-side rendering for enhanced performance and SEO optimization.</li>
+        <div class="row">
+          <h1 class="big-4">Experience</h1>
+          <div class="underline"></div>
+        </div>
+        <br />
 
-<li>Implemented Zustand for state management, ensuring efficient data handling and seamless component integration across projects.</li>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">Jan 2022 - Present</span>
+              <h2>Software Developer</h2>
+              <span class="position">Medisage E-Learning Pvt Ltd</span>
+              <p class="mt-4">
+                Medisage, Asia's largest medical network of Doctors, where best
+                medical minds exchange ideas to improve patient outcomes.
+              </p>
+              <ul>
+                <li>
+                  Contributed to Nextjs Medisage Website, it involved creating a
+                  user-friendly interface for managing patient cases, scheduling
+                  appointments, reading medical journals, and subscribing to
+                  newsletters, all within a single application.
+                </li>
 
-<li>Integrated razorPay for secure payment transactions and leveraged Axios to seamlessly connect frontend applications with backend APIs.</li>
+                <li>
+                  Built a responsive platform that facilitated seamless
+                  communication between doctors, experts and patients.
+                </li>
 
-<li>Enhanced user interaction through CSS animations and Framer Motion, delivering visually appealing and dynamic user interfaces.</li>
+                <li>
+                  Implemented zustand for state management, ensuring efficient
+                  data handling and seamless component integration across
+                  projects.
+                </li>
 
-<li>Collaborated closely with UI/UX designers to translate design mockups into pixel-perfect interfaces, emphasizing usability and aesthetic appeal.</li>
+                <li>
+                  Implemented zustand for state management, ensuring efficient
+                  data handling and seamless component integration across
+                  projects.
+                </li>
 
-<li>Debugged and optimized existing websites, achieving significant performance improvements through targeted bug fixes and optimizations.</li>
+                <li>
+                  Developed SEO-friendly practice pages for doctors, enhancing
+                  visibility through optimized search engine rankings.
+                </li>
 
-<li>Designed and developed a comprehensive admin panel dashboard in Vue2, implementing CRUD operations for efficient data management and system administration.</li>
+                <li>
+                  Ensuring a consistent and responsive design was crucial. I
+                  used tailwind to create a responsive layout that adapted well
+                  to different devices.
+                </li>
 
-<li>Participated in Agile ceremonies such as daily stand-ups and sprint planning, contributing to a collaborative and iterative development process.</li>
-							</ul>
-						</p>
-					</div>
+                <li>
+                  Debugged and optimized existing websites, achieving
+                  significant performance improvements through targeted bug
+                  fixes and optimizations.
+                </li>
 
-				</div>
+                <li>
+                  Developed Medisage Admin Panel using Vue2. This project was
+                  mainly build for managing the backend data and administrative
+                  tasks for the Medisage platform.
+                </li>
+              </ul>
+            </div>
+          </div>
 
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">May 2021 - Nov 2021</span>
-						<h2>Frontend Developer Intern</h2>
-						<span class="position">Goldenmace IT Solutions</span>
-						<p class="mt-4">Goldenmace, a solution engineering company specialize in leveraging technology to enhance branding, automation, and operational efficiency.
-							<ul>
-								<li>Demonstrated rapid learning and adaptation to new technologies and frameworks under the guidance of senior developers and mentors</li>
-								<li>Contributed to frontend projects during internship, applying knowledge of HTML, CSS, JavaScript, and frontend frameworks like React and Vue.js to deliver impactful solutions.
-								</li>
-								<li>
-									Worked closely with senior developers and cross-functional teams to understand project requirements, integrate backend APIs using tools like axios, and deliver cohesive frontend solutions.
-								</li>
-								<li>
-									Collaborated with design teams to translate UI/UX and prototypes into responsive and user-friendly interfaces, ensuring alignment with project goals and design specifications.
-								</li>
-								<li>
-									Implemented innovative ideas to improve frontend functionalities and user experience, demonstrating initiative and creativity in problem-solving.
-								</li>
-							</ul>
-						</p>
-					</div>
+          <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">May 2021 - Nov 2021</span>
+              <h2>Frontend Developer Intern</h2>
+              <span class="position">Goldenmace IT Solutions</span>
+              <p class="mt-4">
+                Goldenmace, a solution engineering company specialize in
+                leveraging technology to enhance branding, automation, and
+                operational efficiency.
+              </p>
+              <ul>
+                <li>Trained in HTML, CSS, JavaScript, React, and Vue.</li>
+                <li>
+                  Worked on CRM dashboards and Bootstrap admin dashboards.
+                  Created pixel perfect user interfaces for all devices using
+                  HTML, CSS and Bootstrap. Worked on React and Vue dashboards.
+                </li>
+                <li>
+                  Built reusable components to streamline development and
+                  maintain consistency across projects.
+                </li>
+                <li>
+                  Designed and implemented features for CRM systems (Datum Lite)
+                  to manage customer relationships effectively.
+                </li>
+                <li>
+                  Worked closely with design team to create responsive user
+                  interfaces.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-				</div>
-			</div>
+        <br />
+        <br />
 
-		<br>
-		<br>
+        <div class="row">
+          <h1 class="big-4">Education</h1>
+          <div class="underline"></div>
+        </div>
+        <br />
 
-		<div class="row">
-			<h1 class="big-4">Education</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
-		
-			<div class="row">
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2018-2021</span>
-    					<h2>Bachelor of Science - IT</h2>
-    					<p class="">University of Mumbai</p>
-    					<p class="position">Nagindas Khandwala College</p>
-    					<p class="mt-4">Grade: A+</p>
-    				</div>
-    			</div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2018-2021</span>
+              <h2>Bachelor of Science - IT</h2>
+              <p class="">University of Mumbai</p>
+              <p class="position">Nagindas Khandwala College</p>
+              <p class="mt-4">Grade: A+</p>
+            </div>
+          </div>
 
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2016-2018</span>
-    					<h2>Higher Secondary School</h2>
-						<p>University of Mumbai</p>
-    					<p class="position">fBombay Suburban Grain Dealer's College</p>
-    					<p class="mt-4">Grade: A+</p>
-    				</div>
-				</div>
-    		</div>
-
-    		<!-- <div class="row justify-content-center mt-5">
+          <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">2016-2018</span>
+              <h2>Higher Secondary School</h2>
+              <p>University of Mumbai</p>
+              <p class="position">Bombay Suburban Grain Dealer's College</p>
+              <p class="mt-4">Grade: A+</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row justify-content-center mt-5">
     			<div class="col-md-6 text-center ftco-animate">
     				<p><a target="_blank" href="/Nidhi_Patel_2_plus_yrs_exp.pdf" download class="btn btn-primary py-4 px-5">Download CV</a></p>
     			</div>
     		</div> -->
-    	</div>
+      </div>
     </section>
-
-   
 
     <section class="ftco-section" id="project-section">
       <div class="container">
@@ -446,104 +708,420 @@
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
             <h2 class="mb-4">Projects</h2>
-            <p>Below are the sample Frontend projects on React, Javascript, Typescript, Redux and HTML</p>
+            <p>
+              I have contributed to several projects where I have showcased my
+              expertise and skills in React, Next, Vue, JavaScript, TypeScript,
+              Redux, and HTML.
+            </p>
           </div>
         </div>
         <div class="row d-flex">
           <div class="col-md-6 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://mymedisage.com" class="block-20 zoom-effect" target="_blank" style="background-image: url('images/medi-ss-1.png');">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://mymedisage.com"
+                class="block-20 zoom-effect"
+                target="_blank"
+                style="background-image: url('images/medisage/medi-ss-1.png')"
+              >
               </a>
               <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a target="_blank" href="https://mymedisage.com">Medisage - Medical Network of Doctors</a></h3>
-                <p>Created a mobile-responsive website incorporating essential functionalities such as doctor and patient authentication (login/logout), searchbar, pagination. The website includes comprehensive content pages like About, Careers, Partners, Community and specialized features for doctors and patients, such as feedback submission, case creation, and access to expert-led webinars, enhancing engagement and usability.</p>
+                <h3 class="heading">
+                  <a target="_blank" href="https://mymedisage.com"
+                    >Medisage Website</a
+                  >
+                </h3>
+                <p>
+                  One of the most interesting projects I've worked on was
+                  developing a web application for a doctor-patient interaction
+                  platform using React and Next. This project was particularly
+                  exciting because it involved creating a user-friendly
+                  interface for managing patient cases, scheduling appointments,
+                  reading medical journals, and subscribing to newsletters, all
+                  within a single application. The goal was to build a
+                  responsive and intuitive platform that facilitated seamless
+                  communication between doctors, experts and patients. The
+                  positive feedback from doctors highlighted the success of the
+                  project and its value in enhancing healthcare delivery.
+                  Overall, this project demonstrated the power of React in
+                  building complex, responsive, and user-friendly web
+                  applications, and it remains one of the most rewarding
+                  experience in my career as a frontend developer.
+                </p>
               </div>
             </div>
           </div>
           <div class="col-md-6 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://admin.mymedisage.com" class="block-20 zoom-effect" target="_blank" style="background-image: url('images/admin-ss-2.png');">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://admin.mymedisage.com"
+                class="block-20 zoom-effect"
+                target="_blank"
+                style="background-image: url('images/admin/admin-ss-2.png')"
+              >
               </a>
               <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a target="_blank" href="https://admin.mymedisage.com">Medisage Admin Panel Dashboard</a></h3>
-                <p>Developed an interactive admin panel dashboard with functionalities such as Vuex for state management, Vuelidate for form validation, and Axios for seamless backend API integration. Implemented role-based access control to manage user permissions across specific modules, ensuring secure and efficient data handling. Caching of doctor's data in localStorage for performance optimization. Features include a structured UI with search functionality, pagination, header, sidebar, and sections, alongside loader and toast messages managed via Vuex.</p>
+                <h3 class="heading">
+                  <a target="_blank" href="https://admin.mymedisage.com"
+                    >Medisage Admin Panel</a
+                  >
+                </h3>
+                <p>
+                  One of the most significant projects I've worked on was
+                  developing the Medisage Admin Panel using Vue2. This project
+                  was mainly build for managing the backend data and
+                  administrative tasks for the Medisage platform. The admin
+                  panel was designed to be a comprehensive CRUD (Create, Read,
+                  Update, Delete) system with a structured UI. It included a
+                  header, sidebar, and multiple sections for easy navigation. I
+                  also added features like a search bar, pagination, and tabs,
+                  making it easier to handle large sets of data. For displaying
+                  backend data, I utilized Bootstrap tables, and for styling, I
+                  relied on CSS. One of the main highlights of this project was
+                  implementing role-based access control. This ensured that
+                  different user roles could only access the specific modules
+                  they were authorized for, providing secure and efficient data
+                  handling. Working on the Medisage Admin Panel was a thrilling
+                  experience as it allowed me to delve deep into Vue2 and build
+                  a system that greatly facilitated the management of the
+                  Medisage platform.
+                </p>
               </div>
             </div>
           </div>
         </div>
-	<br>
-		<!-- added justify-content-center to center align the last two projects -->
-		<div class="row d-flex">  
-			<div class="col-md-6 d-flex ftco-animate">
-				<div class="blog-entry">
-				<a href="https://chat-app-react-firebase-psi.vercel.app" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/chat-ss-1.png');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a target="_blank" href="https://chat-app-react-firebase-psi.vercel.app">Realtime Chat Application</a></h3>
-				  <p>The Realtime Chat Application is a responsive web application which enables users to engage in realtime messaging with a seamless and intuitive user interface. Utilized Firebase Authentication for secure user login and authentication processes.</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-6 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://weather-app-nine-alpha-49.vercel.app" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/weather-ss-1.png');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a target="_blank" href="https://weather-app-nine-alpha-49.vercel.app">Weather App</a></h3>
-				  <p>Weather App is a responsive web app with features such as real-time weather information, displaying temperature, humidity and wind which enhances user accessibility and experience. User can search for any city or country to instantly retrieve weather data. It ensures seamless usability across various devices, from smartphones to desktops.</p>
-				</div>
-			  </div>
-			</div>
-		 </div>
-		<br>
-		<div class="row d-flex justify-content-center">
-			<div class="col-md-6 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://what-to-do-vert.vercel.app" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/todo-ss-3.png');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a target="_blank" href="https://what-to-do-vert.vercel.app">What-To-Do List App</a></h3>
-				  <p>The Desktop What-To-Do List App is a CRUD application. It provides a streamlined interface for users to create, edit, and delete day-to-day tasks directly from their desktop browsers. It perform Create, Read, Update, and Delete operations seamlessly on tasks. Its a user-friendly app designed for efficient task management and interaction.</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-6 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://drag-and-drop-seven-rose.vercel.app" target="_blank" class="block-20 zoom-effect" style="background-image: url('images/dnd-ss-3.png');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a target="_blank" href="https://drag-and-drop-seven-rose.vercel.app">Drag-and-Drop Task Management</a></h3>
-				  <p>The Desktop Drag-and-Drop Task Manager is a web application designed specifically for desktop environments. It allows users to efficiently manage tasks across three sections: Todo, In Progress, and Completed.</p>
-				</div>
-			  </div>
-			</div>
-		</div>
-		<br>
-		<div class="row d-flex justify-content-center">
-			<div class="col-md-6 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://ekart-in-react.vercel.app" class="block-20 zoom-effect" target="_blank" style="background-image: url('images/thesus-ss-1.png');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://ekart-in-react.vercel.app" target="_blank">E-Kart: Your Ultimate Outdoor Gear Marketplace</a></h3>
-				  <p>E-Kart is a dynamic e-commerce platform currently under development with React, Redux, and JavaScript, designed to revolutionize online shopping for outdoor enthusiasts. Featuring specialized catalog pages such as New Arrivals, Snow Gear, and All-Weather Essentials, E-Kart caters to diverse adventure needs.</p>
-				</div>
-			  </div>
-			</div>
-		</div>
-	  </div>
+        <div class="row d-flex">
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://templates.iqonic.design/streamit-dist/frontend/vue/home"
+                class="block-20 zoom-effect"
+                target="_blank"
+                style="
+                  background-image: url('images/streamit/streamit-ss-1.png');
+                "
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a
+                    target="_blank"
+                    href="https://templates.iqonic.design/streamit-dist/frontend/vue/home"
+                    >Streamit Lite - Video Streaming Admin Template
+                  </a>
+                </h3>
+                <p>
+                  During my internship, I worked on the VueJS version of the
+                  Streamit template for video streaming platforms. I contributed
+                  to developing its sleek, dark-style UI and helped create
+                  various pages and sections. This template supports media
+                  streaming businesses in launching and managing their services
+                  efficiently.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://templates.iqonic.design/hope-ui/pro/react/dashboard"
+                class="block-20 zoom-effect"
+                target="_blank"
+                style="background-image: url('images/hopeui/hopeui-ss-1.png')"
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a
+                    target="_blank"
+                    href="https://templates.iqonic.design/hope-ui/pro/react/dashboard"
+                    >Hope UI - Bootstrap Admin Dashboard Template
+                  </a>
+                </h3>
+                <p>
+                  During my internship, I contributed to the Hope UI project,
+                  its a professional-grade Bootstrap Admin Dashboard Template
+                  and UI Components Library. My work focused on developing
+                  production-ready components designed to enhance and speed up
+                  the workflow for enterprise applications. This project aims to
+                  revolutionize UI development with powerful, developer-friendly
+                  tools.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://templates.iqonic.design/product/lite/socialv/html/dist/dashboard/index.html"
+                class="block-20 zoom-effect"
+                target="_blank"
+                style="background-image: url('images/socialv/socialv-ss-1.png')"
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a
+                    target="_blank"
+                    href="https://templates.iqonic.design/product/lite/socialv/html/dist/dashboard/index.html"
+                    >SocialV Lite - Social Network Admin Dashboard
+                  </a>
+                </h3>
+                <p>
+                  During my internship, I worked on SocialV Lite, a free HTML
+                  admin dashboard template for social networks. I helped develop
+                  its modern, user-friendly interface and contributed to
+                  creating high-quality dashboard designs and ready-to-use
+                  templates like calendar and chat. This template is designed to
+                  provide a clean, professional admin experience for social
+                  network platforms.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://templates.iqonic.design/product/lite/coinex/dashboard/html/dist/dashboard/"
+                class="block-20 zoom-effect"
+                target="_blank"
+                style="background-image: url('images/coinex/coinex-ss-1.png')"
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a
+                    href="https://templates.iqonic.design/product/lite/coinex/dashboard/html/dist/dashboard/"
+                    target="_blank"
+                    >Coinex Lite Admin Dashboard</a
+                  >
+                </h3>
+                <p>
+                  I contributed to Coinex Lite, a free admin dashboard template
+                  designed for the crypto and blockchain sector. This project
+                  features a modern, tech-focused design that is user-friendly
+                  and visually appealing. It helps professionals in the crypto
+                  space create clean and functional websites with ease.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://templates.iqonic.design/product/lite/noteplus/dist/backend/index.html"
+                class="block-20 zoom-effect"
+                target="_blank"
+                style="background-image: url('images/noteplus/noteplus-ss.png')"
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a
+                    target="_blank"
+                    href="https://templates.iqonic.design/product/lite/noteplus/dist/backend/index.html"
+                    >Noteplus Lite - Note Taking Admin Template
+                  </a>
+                </h3>
+                <p>
+                  During my internship, I contributed to Noteplus Lite, a free
+                  HTML admin template designed for note-taking. I worked on its
+                  minimalistic and smart interface, helping users easily jot
+                  down, store, and access notes and reminders. This static
+                  project focuses on providing a simple and efficient way to
+                  keep information organized.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://templates.iqonic.design/datum/react/build/?sidebar=0"
+                class="block-20 zoom-effect"
+                target="_blank"
+                style="background-image: url('images/datum/datum-ss-1.png')"
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a
+                    target="_blank"
+                    href="https://templates.iqonic.design/datum/react/build/?sidebar=0"
+                    >Datum - CRM HTML Admin Dashboard</a
+                  >
+                </h3>
+                <p>
+                  I contributed to Datum Lite, an HTML admin dashboard template
+                  designed for customer relationship management (CRM). The
+                  project focused on creating an aesthetically pleasing and
+                  functional dashboard to help businesses and marketers monitor
+                  customer needs, track behaviors, and align marketing efforts.
+                  Datum Lite supports effective CRM by providing tools to
+                  optimize customer interactions and boost sales.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <!-- added justify-content-center to center align the last two projects -->
+        <div class="row d-flex">
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry">
+              <a
+                href="https://chat-app-react-firebase-psi.vercel.app"
+                target="_blank"
+                class="block-20 zoom-effect"
+                style="background-image: url('images/chat-ss-1.png')"
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a
+                    target="_blank"
+                    href="https://chat-app-react-firebase-psi.vercel.app"
+                    >Realtime Chat Application</a
+                  >
+                </h3>
+                <p>
+                  I developed a responsive web application for real-time
+                  messaging. The project features two screens: a sign-in page
+                  for users who are not logged in, and a chat page whe user is
+                  successfully logged in. Users must log in via Google for
+                  authentication. For Frontend, I used React and for Backend,
+                  Firebase Authentication was used for secure user login and
+                  authentication processes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://weather-app-nine-alpha-49.vercel.app"
+                target="_blank"
+                class="block-20 zoom-effect"
+                style="background-image: url('images/weather/weather-ss-1.png')"
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a
+                    target="_blank"
+                    href="https://weather-app-nine-alpha-49.vercel.app"
+                    >Weather App</a
+                  >
+                </h3>
+                <p>
+                  I developed a responsive web application that provides
+                  real-time weather information, including temperature,
+                  humidity, and wind details. Users can search for weather data
+                  of any city or country instantly, enhancing accessibility
+                  across different devices, from smartphones to desktops.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://what-to-do-vert.vercel.app"
+                target="_blank"
+                class="block-20 zoom-effect"
+                style="
+                  background-image: url('images/what-to-do/what-to-do-ss-1.png');
+                "
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a target="_blank" href="https://what-to-do-vert.vercel.app"
+                    >What-To-Do</a
+                  >
+                </h3>
+                <p>
+                  I built a CRUD application for desktop browsers that enables
+                  users to efficiently manage day-to-day tasks. The app allows
+                  users to create, read, update, and delete tasks seamlessly,
+                  providing a user-friendly interface for effective task
+                  management.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://drag-and-drop-seven-rose.vercel.app"
+                target="_blank"
+                class="block-20 zoom-effect"
+                style="background-image: url('images/dnd-ss-3.png')"
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a
+                    target="_blank"
+                    href="https://drag-and-drop-seven-rose.vercel.app"
+                    >Drag-and-Drop Task Management</a
+                  >
+                </h3>
+                <p>
+                  I created a desktop based Drag-and-Drop that simplifies task
+                  management. It includes sections for Todo, In Progress, and
+                  Completed tasks, allowing users to organize tasks easily using
+                  drag-and-drop.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="https://ekart-in-react.vercel.app"
+                class="block-20 zoom-effect"
+                target="_blank"
+                style="background-image: url('images/thesus-ss-1.png')"
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">
+                  <a href="https://ekart-in-react.vercel.app" target="_blank"
+                    >Thesus : E-Commerce Website Clone</a
+                  >
+                </h3>
+                <p>
+                  I cloned the Thesus website, an e-commerce platform for
+                  purchasing all-weather shoes. Using React, Redux, and
+                  JavaScript, I replicated the UI, featuring sections like New
+                  Arrivals, Snow Gear, and All-Weather Essentials. The project
+                  is still in development, with the payment gateway and
+                  login/logout authentication yet to be completed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <section
+      class="ftco-section contact-section ftco-no-pb"
+      id="contact-section"
+    >
       <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
+        <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Contact</h1>
             <h2 class="mb-4">Contact Me</h2>
@@ -553,82 +1131,86 @@
 
         <div class="row d-flex contact-info mb-5">
           <div class="col-md-4 col-lg-4 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>Mumbai, India</p>
-	          </div>
+            <div class="align-self-stretch box p-4 text-center">
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="icon-map-signs"></span>
+              </div>
+              <h3 class="mb-4">Address</h3>
+              <p>Mumbai, India</p>
+            </div>
           </div>
           <div class="col-md-4 col-lg-4 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101" target="_blank">+91-7219107769</a></p>
-	          </div>
+            <div class="align-self-stretch box p-4 text-center">
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="icon-phone2"></span>
+              </div>
+              <h3 class="mb-4">Contact Number</h3>
+              <p>
+                <a href="tel://0101010101" target="_blank">+91-7219107769</a>
+              </p>
+            </div>
           </div>
           <div class="col-md-4 col-lg-4 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com" target="_blank">nidhip5001@gmail.com</a></p>
-	          </div>
+            <div class="align-self-stretch box p-4 text-center">
+              <div
+                class="icon d-flex align-items-center justify-content-center"
+              >
+                <span class="icon-paper-plane"></span>
+              </div>
+              <h3 class="mb-4">Email Address</h3>
+              <p>
+                <a href="mailto:info@yoursite.com" target="_blank"
+                  >nidhip5001@gmail.com</a
+                >
+              </p>
+            </div>
           </div>
-         
-		  <div class="container">
-			<br>
-			<br>
-				<br>
-					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt me-2">Find me on  </li>
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/nidhi-patel-3078371b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="btn btn-primary py-3 px-3" target="_blank"><span class="icon-linkedin"></span></a></li>  
-					  <li class="ftco-animate"><a href="https://x.com/NidhiPatel23006" target="_blank"><span class="icon-twitter"></span></a></li>
-					</ul>
-				<br>
-		   </div>
-   </div>
- </section>
+        </div>
+      </div>
+    </section>
 
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle
+          class="path-bg"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke="#eeeeee"
+        />
+        <circle
+          class="path"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke-miterlimit="10"
+          stroke="#F96D00"
+        />
+      </svg>
+    </div>
 
- 
-	
-    <footer class="ftco-footer ftco-section">
-		<div class="container">
-		  <div class="row">
-			<div class="col-md-12 text-center">
-  
-			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-			</div>
-		  </div>
-		</div>
-	  </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
 
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  
-  <script src="js/main.js"></script>
-    
+    <script src="js/main.js"></script>
   </body>
 </html>
