@@ -1,4 +1,6 @@
-## Welcome to my portfolio showcasing my journey in Frontend development!
+## Welcome to my portfolio
+
+## Showcasing my journey in Frontend development!
 
 Take a look at my portfolio featuring my experience and expertise in Frontend development.
 
